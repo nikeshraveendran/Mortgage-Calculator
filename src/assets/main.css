@@ -1,0 +1,31 @@
+@import './base.css';
+
+.container-row {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  margin: 30px 0;
+}
+
+a {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+.btn-wrap a {
+  background-color: #fff;
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid hsla(160, 100%, 37%, 1);
+  font-size: 13px;
+}
